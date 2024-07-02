@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 var iPortaTcp = 4201;
-var sIpAddress = "127.0.0.1"
+var sIpAddress = "172.22.228.243"
 
 app.listen(iPortaTcp,sIpAddress, () => console.log('API is running on http://' + sIpAddress + ':' + iPortaTcp));
 const bodyParser = require('body-parser');
